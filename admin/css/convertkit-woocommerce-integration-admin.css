@@ -1,0 +1,346 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+ .toplevel_page_convertkit_woocommerce_integration_menu #wpbody-content {
+   width: 98% !important;
+}
+
+.toplevel_page_convertkit_woocommerce_integration_menu #wpbody-content .notice,
+.toplevel_page_convertkit_woocommerce_integration_menu #wpbody-content .updated {
+ margin: 20px 0px 20px;
+}
+
+.convertkit-woocommerce-integration-wrap h2 {
+    background-color: #dcdcdc ;
+    padding: 10px;
+    margin: 20px 0px;
+    border: solid 1px #c4c4c4;
+    border-radius: 10px;   
+}
+
+.convertkit-woocommerce-integration-wrap h3 {
+    font-size: 15px;
+    color: #444444;
+}
+
+#convertkit-woocommerce-integration-ck-menu,
+#mwb-cwi-pro-content {
+	background: #ffffff ;
+    padding-left: 15px;
+    display: block;
+    border: solid 1px #e6e6e6 ;
+}
+
+.convertkit-woocommerce-integration-wrap input[type=text] {
+    width: 100%;
+    max-width: 350px;
+}
+
+#convertkit-woocommerce-integration-ajax-loading-gif {
+    display: none;
+    position: relative;
+    top: 5px;
+}
+
+#convertkit-woocommerce-integration-integrate-loading,
+#convertkit-woocommerce-integration-custom-field,
+#convertkit-woocommerce-integration-tag {
+    display: none;
+}
+
+#convertkit-woocommerce-integration-integrate-loading p {
+    font-style: italic;
+}
+
+#convertkit-woocommerce-integration-account-info {
+    display: flex;
+    justify-content: normal;
+}
+
+#convertkit-woocommerce-integration-status {
+    margin-left: 50px;
+}
+
+#convertkit-woocommerce-integration-status p img {
+ vertical-align: middle;
+}
+
+#convertkit-woocommerce-integration-status > p {
+ vertical-align: top;
+ display: inline-block;
+}
+
+#convertkit-woocommerce-integration-status-content {
+    display: inline-block;
+}
+
+#convertkit-woocommerce-integration-integrate-loading img {
+    vertical-align: middle;
+}
+
+#convertkit-woocommerce-integration-name {
+    margin-bottom: 15px;
+}
+
+#convertkit-woocommerce-integration-status-content span {
+    margin-left: 2px;
+}
+
+#convertkit-woocommerce-integration-integrate-submit-wrapper p {
+    display: inline-block;
+}
+
+#convertkit-woocommerce-integration-integrate-loading {
+ margin-left: 5px;
+}
+
+#convertkit-woocommerce-integration-integrate-loading p {
+ margin-left: 3px;
+}
+
+#convertkit-woocommerce-integration-integrate-loading img {
+    margin-top: -4px;
+}
+
+/*for convertkit-woocommerce-integration-account-info*/
+
+@media only screen and (max-width: 768px) {
+
+    #convertkit-woocommerce-integration-account-info {
+        display: block !important;
+    }
+
+    #convertkit-woocommerce-integration-status {
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+}
+
+
+/*designer css for pro tab*/
+
+
+/*==============================================
+=            designing for pro tab            =
+==============================================*/
+#mwb-cwi-pro-content{
+    padding-right: 15px;
+}
+
+#mwb-cwi-pro-content h1 {
+    text-align: center;
+    padding: 25px;
+    background: #efefef;
+    line-height: 35px;
+    border-radius: 9px;
+}
+#mwb-cwi-pro-content .mwb-cwi-pro-purchase-now .mwb-cwi-pro-buy-now {
+    background: #ca4a1f;
+    color: #fff;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 11px;
+    display: inline-block;
+}
+
+#mwb-cwi-pro-content .mwb-cwi-pro-purchase-now .mwb-cwi-pro-view-product-page {
+    background: #78bb49;
+    color: #fff;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 11px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#mwb-cwi-pro-content .mwb-cwi-pro-logo.mwb-cwi-pro-logo-feature {
+    width: 40% !important;
+}
+
+#mwb-cwi-pro-content .mwb-cwi-pro-logo.mwb-cwi-pro-logo-feature img{
+    width: 100%;
+}
+
+#mwb-cwi-pro-content .mwb-cwi-pro-features.mwb-cwi-pro-logo-feature {
+    width: 40%;
+}
+.mwb-cwi-pro-logo-feature{
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px;
+}
+.mwb-cwi-pro-features h3 {
+    font-size: 23px !important;
+    margin-top: 12px;
+}
+.mwb-cwi-pro-features ul {
+    list-style: disc;
+}
+.mwb-cwi-pro-features li {
+    font-size: 15px;
+    margin-bottom: 17px;
+    line-height: 26px;
+}
+.mwb-cwi-pro-custom-fields h3{
+    font-size: 23px;
+    text-align: center;
+    line-height: 32px;
+}
+.mwb-cwi-pro-custom-fields li {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.mwb-cwi-pro-rfm h3 {
+    font-size: 21px !important;
+    text-align: center;
+}
+.mwb-cwi-pro-rfm {
+    padding: 15px;
+    margin-top: 40px;
+}
+.mwb-cwi-pro-rfm-ques {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    background: #efefef;
+    border-radius: 9px;
+}
+.mwb-cwi-pro-rfm-ques ul {
+    text-align: left;
+    list-style: disc;
+    padding-left: 20px;
+}
+.mwb-cwi-pro-second-wrap h4{
+    text-align: center;
+}
+.mwb-cwi-pro-inner {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 11px;
+    background: #fff;
+    margin: 12px;
+    min-height: 320px;
+    height: 100%;
+    box-shadow: 2px 2px 11px #dadada;
+}
+
+.mwb-cwi-pro-second-wrap {
+    background: #efefef;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 9px;
+}
+.mwb-cwi-pro-rfm p {
+    font-size: 15px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.mwb-cwi-pro-rfm-ques h4{
+    font-size: 20px;
+    line-height: 35px;
+}
+.mwb-cwi-pro-second-wrap h4{
+    font-size: 20px;
+    line-height: 35px;
+}
+.mwb-cwi-pro-rfm-ques li {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.mwb-cwi-pro-inner h5{
+    text-align: center;
+    font-size: 17px;
+}
+.mwb-cwi-pro-inner li {
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+
+.mwb-cwi-pro-rfm-plus-convertkit h3{
+    font-size: 23px;
+    text-align: center;
+}
+.mwb-cwi-pro-rfm-video iframe {
+    box-shadow: 2px 2px 16px #9e9191;
+}
+
+.mwb-cwi-pro-rfm-plus-convertkit-content p{
+ font-size: 15px !important;
+ text-align: left; 
+}
+.mwb-cwi-pro-rfm-video {
+    padding-bottom: 30px;
+}
+
+.mwb-cwi-pro-custom-fields {
+    background: #dcdcdc;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.mwb-cwi-pro-rfm-plus-convertkit {
+    text-align: center;
+    background: #dcdcdc;
+    padding: 20px;
+    margin: 14px;
+    border-radius: 9px;
+}
+
+.mwb-cwi-pro-rfm-plus-convertkit-content {
+    background: #fff;
+    padding: 20PX;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+
+/*===================================
+=            media-query            =
+===================================*/
+
+@media only screen and (max-width: 1280px){
+  #mwb-cwi-pro-content .mwb-cwi-pro-logo.mwb-cwi-pro-logo-feature {
+    width: auto !important;
+}
+
+#mwb-cwi-pro-content .mwb-cwi-pro-features.mwb-cwi-pro-logo-feature {
+    width: auto;
+}
+.mwb-cwi-pro-inner {
+    width: auto;
+}
+.mwb-cwi-pro-logo.mwb-cwi-pro-logo-feature a{
+    display:block !important;
+} 
+.mwb-cwi-pro-rfm-plus-convertkit-content{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.mwb-cwi-pro-rfm-plus-convertkit {
+    margin:0;
+
+} 
+.mwb-cwi-pro-rfm-video iframe {
+   width: 100%;
+} 
+.mwb-cwi-pro-inner{
+    display: block;
+}
+}
+
+/*=====  End of media-query  ======*/
+
+
+/*=====  End of designing for pro tab  ======*/
