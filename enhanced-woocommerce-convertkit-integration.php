@@ -16,16 +16,16 @@
  * Plugin Name:       Integration with ConvertKit for WooCommerce
  * Plugin URI:        https://wordpress.org/plugins/enhanced-woocommerce-convertkit-integration/
  * Description:       Integrate your Woocommerce store customers to ConvertKit with Real time Syncing.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            MakeWebBetter
  * Author URI:        https://makewebbetter.com/
  * Text Domain:       enhanced-woocommerce-convertkit-integration
  * Domain Path:       /languages
  *
  * Requires at least:        4.6
- * Tested up to:             5.2.3
+ * Tested up to:             5.6.1
  * WC requires at least:     3.2
- * WC tested up to:          3.7.0
+ * WC tested up to:          5.0.0
  *
  * License:           GNU General Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
@@ -49,7 +49,7 @@ if ( $activated ) {
 	// Define plugin constants.
 	function define_convertkit_woocommerce_integration_constants() {
 
-		convertkit_woocommerce_integration_constants( 'CONVERTKIT_WOOCOMMERCE_INTEGRATION_VERSION', '1.0.1' );
+		convertkit_woocommerce_integration_constants( 'CONVERTKIT_WOOCOMMERCE_INTEGRATION_VERSION', '1.0.2' );
 		convertkit_woocommerce_integration_constants( 'CONVERTKIT_WOOCOMMERCE_INTEGRATION_DIR_PATH', plugin_dir_path( __FILE__ ) );
 		convertkit_woocommerce_integration_constants( 'CONVERTKIT_WOOCOMMERCE_INTEGRATION_DIR_URL', plugin_dir_url( __FILE__ ) );
 		convertkit_woocommerce_integration_constants( 'MWB_CWI_API_URL', 'https://api.convertkit.com/v3' );

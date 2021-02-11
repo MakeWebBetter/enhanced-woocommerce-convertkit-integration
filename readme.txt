@@ -3,10 +3,10 @@
 Contributors: makewebbetter
 Tags: convertkit, integration, email automation, email marketing, convertkit woocommerce, woocommerce convertkit, woocommerce store,
 Requires at least: 4.6
-Tested up to: 5.2.3
+Tested up to: 5.6.1
 WC requires at least: 3.2
-WC tested up to: 3.7.0
-Stable tag: 1.0.1
+WC tested up to: 5.0.0
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -185,6 +185,9 @@ There are the few points you can crosscheck:
 
 
 == Changelog ==
+
+= 1.0.2 - Released on 12th February 2020 =
+* Improved: Compatibility with WP(5.6.1) and WC(5.0.0)
 
 = 1.0.1 =
 * Improved: Better Security and Performance
