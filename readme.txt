@@ -199,6 +199,5 @@ There are the few points you can crosscheck:
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-* Improved: Better Security and Performance
-* Other: Issues and Bugs Fixed.
+= 1.0.2 - Released on 12th February 2020 =
+* Improved: Compatibility with WP(5.6.1) and WC(5.0.0)
